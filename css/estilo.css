@@ -1,0 +1,54 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #bfbff7;
+   
+}
+
+#app {
+    background-color: #bfbff7;
+    padding: 20px;
+    text-align: center;
+}
+
+input[type="range"].range-green {
+    accent-color: #e90ec1; /* Verde */
+}
+
+input[type="range"].range-orange {
+    accent-color: #a221bf; /* Naranja */
+}
+
+input[type="range"].range-red {
+    accent-color: #1a1a76; /* Rojo */
+}
+
+button {
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #bfbff7;
+    color: rgb(83, 3, 108);
+}
+
+h1 {
+    font-size: 40px;
+    margin: 10px 0;
+    color: #242728;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+li {
+    cursor: pointer;
+}
+
+.completada {
+    text-decoration: line-through;
+    color: rgb(147, 155, 209);
+}
